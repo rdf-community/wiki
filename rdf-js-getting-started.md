@@ -3,26 +3,26 @@
 
 # Getting Started with RDF/JS
 
-## What is RDF/JS?
+# What is RDF/JS?
 
 For many years there were multiple RDF libraries and interfaces available in the JavaScript world. In 2013 the [RDF JavaScript Libraries Community Group](https://www.w3.org/community/rdfjs/) was initiated. Results of this group are several [RDF/JS Specifications](http://rdf.js.org/), most notably the [Data Model Specification](http://rdf.js.org/data-model-spec/) and the (WIP) [Dataset Specification](https://rdf.js.org/dataset-spec/).
 
-## How to work with RDF/JS
+# How to work with RDF/JS
 
-### Data Model
+## Data Model
 
 The **RDF/JS Data Model** is a low-level interface for working with RDF and Linked Data in ECMAScript platforms like Web browsers and Node.js. Full specification: [RDF/JS Data Model Specification](http://rdf.js.org/data-model-spec/).
 
-#### Basics
+### Basics
 
 A **Triple** is made up of *subject*, *predicate* and *object*.
 
 A **Quad** is a *Triple* with an additional *context*, where the context represents the [graph-concept in RDF 1.1](https://www.w3.org/TR/rdf11-primer/#section-multiple-graphs). The Data Model can only represent quads. This is not a real limitation since quads declared without a context are added to the so-called "[default graph](http://rdf.js.org/data-model-spec/#dom-quad-graph)".
 
 
-#### Examples
+### Examples
 
-##### Creating a Quad
+#### Creating a Quad
 
 ```js
 const rdf = require('rdf-ext')
@@ -57,7 +57,7 @@ If you want to create a [blank node](https://www.w3.org/TR/rdf11-primer/#section
 const bnode = rdf.blankNode()
 ```
 
-##### Parsing RDF into RDF/JS
+#### Parsing RDF into RDF/JS
 
 While creating quads by hand is useful, in most cases you will also have RDF data stored in some serialization format that you will need to parse into RDF/JS objects.
 
@@ -151,13 +151,13 @@ ntriplesParser.parse(nt, (err, quad, prefixes) => {
 
 More about [N3.js](https://github.com/rdfjs/N3.js/blob/master/README.md).
 
-### Datasets
+## Datasets
 
 A RDF/JS Dataset is the easiest way of working with a collection of quads. Its interface is defined in the [RDF/JS Dataset Specification](https://rdf.js.org/dataset-spec/). The goal is to have a common API for storing, searching, matching, filtering, manipulating collections of quads.
 
-#### Examples
+### Examples
 
-##### Parse triples from a file
+#### Parse triples from a file
 
 Let's install the npm package [tbbt-ld](https://www.npmjs.com/package/tbbt-ld) which provides several characters from The Big Bang Theory described in [Turtle](https://www.w3.org/TR/turtle/) format. Here we will use the parser package `rdf-parser-n3` to parse it into a dataset structure. Note that the [N3 parser](https://github.com/rdfjs/N3.js) (used by `rdf-parser-n3`) can parse [Turtle](https://www.w3.org/TR/turtle/), [TriG](https://www.w3.org/TR/trig/), [N-Triples](https://www.w3.org/TR/n-triples/), [N-Quads](https://www.w3.org/TR/n-quads/), and [Notation3 (N3)](https://www.w3.org/TeamSubmission/n3/).
 
