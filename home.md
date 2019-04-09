@@ -1,3 +1,6 @@
+<!-- TITLE: Welcome on RDF.community -->
+<!-- SUBTITLE: A platform by the RDF community, for the RDF community  -->
+
 RDF and Linked Data are powerful technologies and getting into them hasn’t always been easy. [rdf.community](https://rdf.community) is meant to fill the gap with resources for both newcomers and professionals. It also hosts a community forum on [discuss.rdf.community](https://discuss.rdf.community).
 
 [rdf.community](https://rdf.community) should be exactly what the name says: A platform intended for the RDF community, collectively maintained by the RDF community. It is meant to be a vendor-independent organization open to everyone. Anyone can be part of it and the site is run in an independent [GitHub organization](https://github.com/rdf-community). Active contributors are welcome to join this organization and become administrators as well.
