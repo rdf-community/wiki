@@ -157,7 +157,7 @@ A RDF/JS Dataset is the easiest way of working with a collection of quads. Its i
 
 #### Examples
 
-## Parse triples from a file
+##### Parse triples from a file
 
 Let's install the npm package [tbbt-ld](https://www.npmjs.com/package/tbbt-ld) which provides several characters from The Big Bang Theory described in [Turtle](https://www.w3.org/TR/turtle/) format. Here we will use the parser package `rdf-parser-n3` to parse it into a dataset structure. Note that the [N3 parser](https://github.com/rdfjs/N3.js) (used by `rdf-parser-n3`) can parse [Turtle](https://www.w3.org/TR/turtle/), [TriG](https://www.w3.org/TR/trig/), [N-Triples](https://www.w3.org/TR/n-triples/), [N-Quads](https://www.w3.org/TR/n-quads/), and [Notation3 (N3)](https://www.w3.org/TeamSubmission/n3/).
 
