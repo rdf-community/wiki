@@ -1,10 +1,9 @@
 <!-- TITLE: Understanding Linked Data Formats -->
 <!-- SUBTITLE: Turtle vs RDF/XML vs N-Triples vs JSON-LD -->
 
-
+> Originally posted [on Medium](https://medium.com/wallscope/understanding-linked-data-formats-rdf-xml-vs-turtle-vs-n-triples-eb931dbe9827) by [Angus Addlesee](https://twitter.com/Addlesee_AI).
 
 [In my previous article](https://medium.com/wallscope/tackling-big-data-challenges-with-linked-data-278b0761a6de) I discussed the power of linked data and the advantages of RDF. In this article we will explore what RDF looks like by examining its four most common formats: N-Triples, Turtle, JSON-LD and RDF/XML.
-> **Edit (04/05/2019):** I expanded this article to include JSON-LD and added the contents section below. I had not included JSON-LD originally because I never really use it but agree it needed to be added for completeness.
 
 ## Contents
 
