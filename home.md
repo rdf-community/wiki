@@ -1,10 +1,11 @@
-<!-- TITLE: Welcome on RDF.community -->
-<!-- SUBTITLE: A platform by the RDF community, for the RDF community  -->
+# RDF Community on GitHub
 
-RDF and Linked Data are powerful technologies and getting into them hasn’t always been easy. [rdf.community](https://rdf.community) is meant to fill the gap with resources for both newcomers and professionals. It also hosts a community forum on [discuss.rdf.community](https://discuss.rdf.community).
+A platform by the RDF community, for the RDF community
 
-[rdf.community](https://rdf.community) should be exactly what the name says: A platform intended for the RDF community, collectively maintained by the RDF community. It is meant to be a vendor-independent organization open to everyone. Anyone can be part of it and the site is run in an independent [GitHub organization](https://github.com/rdf-community). Active contributors are welcome to join this organization and become administrators as well.
+Welcome to RDF Community! This GitHub organization is dedicated to both newcomers and seasoned professionals interested in RDF and Linked Data, technologies known for their power but also for their steep learning curve. Our mission is to bridge this gap by providing a wealth of resources, facilitating learning, sharing, and growth within the community.
 
-The goal of this site is to advocate for and educate about RDF and its technology stack. Any contributions in that direction are welcome, although we prefer quality over quantity and aim at being opinionated, instead of an exhaustive list of RDF related resources.
+RDF Community aims to be a community-centric platform, managed and maintained collectively by members of the RDF community. We pride ourselves on being a vendor-independent organization, open and welcoming to all who wish to contribute. Participation is encouraged, and active contributors have the opportunity to join the [rdf-community GitHub organization](https://github.com/rdf-community) as administrators, playing a pivotal role in shaping the platform.
 
-The [community forum](https://discuss.rdf.community) is the place to go for any RDF related discussions. For Q&A kind of content, we recommend [Stack Overflow](https://stackoverflow.com) & alike, where many contributors to this site can be found as well. If you are unsure if you have a question or a discussion, consult [this post](https://meta.discourse.org/t/integrating-discourse-and-stackoverflow/69069/4).
+Our primary objective is to champion RDF and its accompanying technologies. Contributions that further this cause are highly encouraged. We value quality over quantity, striving to offer well-curated, opinionated content rather than an exhaustive directory of RDF resources.
+
+For discussions, debates, and sharing insights about RDF, head over to our [community forum](https://github.com/rdf-community/discussions/discussions). While the forum is the go-to for community conversations, for more structured Q&A content, platforms like [Stack Overflow](https://stackoverflow.com) are recommended. Many of our community members are active there as well. If you're unsure whether your input qualifies as a question or a discussion, this [guide](https://meta.discourse.org/t/integrating-discourse-and-stackoverflow/69069/4) can help you decide where it fits best.
